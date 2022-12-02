@@ -1,0 +1,31 @@
+#root, .wrapper {
+    height: 100%;
+    background-color: #f0f2f5;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: 20% 80%;
+}
+
+.menu {
+    background-color: #001529;
+}
+
+
+.context {
+    display: grid;
+    grid-template-rows: 50px 1fr;
+    overflow-y: auto;
+}
+
+.header {
+    background-color: rgb(255, 255, 255);
+}
+
+.main {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
