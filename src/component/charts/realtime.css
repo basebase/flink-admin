@@ -1,6 +1,8 @@
-.real {
+.vis {
     padding: 20px;
     background-color: rgb(255, 255, 255);
-    display: grid;
-    height: 100%;
+}
+
+.charts {
+    height: 300px;
 }

@@ -1,0 +1,15 @@
+.ant-advanced-search-form {
+    padding: 24px;
+    background: #fbfbfb;
+    border: 1px solid #d9d9d9;
+    border-radius: 6px;
+}
+
+.wrap {
+    padding-bottom: 20px;
+}
+
+.vis {
+    padding: 20px;
+    background-color: rgb(255, 255, 255);
+}
