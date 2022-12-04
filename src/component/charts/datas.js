@@ -138,9 +138,9 @@ export const loginOption = {
 
 
 export const preOption = {
-        title: {
-          text: '世界人口'
-        },
+        // title: {
+        //   text: '世界人口'
+        // },
         tooltip: {
           trigger: 'axis',
           axisPointer: {
@@ -195,7 +195,7 @@ export const loanCntOption = {
         {
           name: 'Nightingale Chart',
           type: 'pie',
-          radius: [50, 250],
+          // radius: [50, 250],
           center: ['50%', '50%'],
           roseType: 'area',
           itemStyle: {
