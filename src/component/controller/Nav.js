@@ -12,7 +12,7 @@ import {
 import { Main } from '../main'
 import { RealTimeCompared } from '../charts'
 import { WrappedAdvancedSearchForm } from '../search'
-
+import { Sale } from '../datav'
 
 const Login = () => {
     return (
@@ -117,7 +117,7 @@ class Controller extends React.Component {
                     <Route path="/" element={<Main />}>
                         <Route path="home" element={<RealTimeCompared />} />
                         <Route path="book" element={<WrappedAdvancedSearchForm />} />
-                        <Route path="auth" element={<Auth />} />
+                        <Route path="auth" element={<Sale />} />
                         <Route path="profile" element={<Profile />} />
                     </Route>
                     <Route path="/login" element={<Login />} />
